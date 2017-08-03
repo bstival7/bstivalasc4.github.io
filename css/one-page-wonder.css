@@ -60,6 +60,17 @@ footer {
 
 footer .input-group {max-width: 500px; margin: 30px auto 0; }
 
+.g-signin2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.signOut{
+    position: absolute;
+    right: 10px;
+    color:white;
+}
 
 @media(max-width:1200px) {
     .headline h1 {
