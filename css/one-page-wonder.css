@@ -61,7 +61,7 @@ footer {
 footer .input-group {max-width: 500px; margin: 30px auto 0; }
 
 .g-signin2{
-    margin: 50px;
+    position: center;
 }
 
 .signOut{
