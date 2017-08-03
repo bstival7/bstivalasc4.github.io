@@ -142,6 +142,7 @@
             console.log('Name: ' + profile.getName());
             console.log('Image URL: ' + profile.getImageUrl());
             console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+            $("#loginrequired").css('display: block;');
         }
         function signOut() {
             var auth2 = gapi.auth2.getAuthInstance();
@@ -149,7 +150,6 @@
             console.log('User signed out.');
             });
             alert("Sign in to see my website!");
-            $("#loginrequired").append
         }
     </script>
 }
