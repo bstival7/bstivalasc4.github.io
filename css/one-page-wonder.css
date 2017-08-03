@@ -96,6 +96,10 @@ footer .input-group {max-width: 500px; margin: 30px auto 0; }
     }
 }
 
+#loginrequired {
+    display: none;
+}
+
 @media(max-width:991px) {
     .headline h1 {
         font-size: 105px;
